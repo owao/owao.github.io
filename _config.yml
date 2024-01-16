@@ -40,7 +40,7 @@ author: owao
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Copyright (c) 2017-2024 owao"
+copyright: "Copyright (c) 2024-{currentYear} owao"
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -108,7 +108,7 @@ yat:
 # spacegrey: #353535
 # snowwhite: #ffffff
 #
-# theme_color: snowwhite
+ theme_color: spacegrey
 #
 # Custom color as below:
 # theme_color: "#882250"
@@ -119,7 +119,7 @@ yat:
 # greatgold: #f2cb05
 # greenblue: #389092
 #
-# brand_color: orangered
+ brand_color: greatgold
 #
 # Custom color as below:
 # brand_color: "#1a8e42"
@@ -135,7 +135,7 @@ yat:
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-# night_mode: "auto"
+ night_mode: "auto"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
