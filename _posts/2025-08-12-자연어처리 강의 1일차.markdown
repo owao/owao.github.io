@@ -16,6 +16,30 @@ import numpy as np
 기본적으로 차원이 있는 행렬을 연산할 수 있다.
 Scalar: 0차원 array (단일값, 상수)
 
+```python
+arr = np.array([1,2,3,4,5])
+
+arr.shape	# (5,)라고 뜬다. 1차원의 크기가 5인 1차원 행렬이라는 뜻
+arr.ndim	# 차원 수를 알려준다. same as len(arr.shape) 
+arr.size	# 데이터 개수를 알려준다.
+len(array)	# 5. 행렬의 길이. iterable하다.
+```
+
+```python
+arr2 = np.array([10, 3.14, 2, 0.12])
+
+arr2.dtype	# 행렬의 type을 보여준다. 위처럼 정수와 소수가 섞여 있으면 전부 float로 취급함.
+
+# numpy가 사용하는 자료형:
+# int, uint, float, complex, bool, string_, object, unicode_
+```
+
+```python
+x = np.array([1,2,3,4],[5,6,7,8])
+
+len(x)	# 2. 1차원 배열을 원소로 카운트하기 때문.
+```
+
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
