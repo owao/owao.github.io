@@ -135,17 +135,18 @@
         {%- endif -%}
       </ul>
       {%- endif -%}
-      {%- if site.plainwhite.navigation -%}
+      
+      {%- assign nav = site.plainwhite.navigation | default: site.navigation -%}
+      {%- if nav and nav != empty -%}
       <nav class="navigation about-footer {{condensed_class}}">
         <ul>
-          {% for link in site.plainwhite.navigation %}
-          <li>
-            <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
-          </li>
-          {% endfor %}
+          {%- for link in nav -%}
+          <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+          {%- endfor -%}
         </ul>
       </nav>
       {%- endif -%}
+
       <p class="about-footer {{condensed_class}}">&copy;
         {{ "now" | date: "%Y" }}</p>
       {%- if site.plainwhite.dark_mode -%}
