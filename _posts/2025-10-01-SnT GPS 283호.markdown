@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "SnT GPS 293호 요약"
+date:   2025-10-01
+categories: SnT_GPS 과학기술 ICT정책 기술동향
+---
+ICT 주요 동향
+(1) 중국의 오픈소스 기술 생태계 구축과 디지털 주권 확보 전략ㄴ
+
+
+```javascript
+const Razorpay = require('razorpay');
+
+let rzp = Razorpay({
+	key_id: 'KEY_ID',
+	secret: 'name'
+});
+
+// capture request
+rzp.capture(payment_id, cost)
+	.then(function (data) {
+		return 2;
+	})
+```
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
