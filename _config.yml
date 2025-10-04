@@ -50,8 +50,8 @@ plainwhite:
     navigation:
     - title: Prolog
       url: "/prolog"
-    - title: Category
-      url: "/category"
+    #- title: Category
+    #  url: "/category"
     - title: About Me
       url: "/about"
 
